@@ -1,43 +1,73 @@
-# ChatGPT AI Chatbot App
+# 💬 AI Chatbot App (Flutter + OpenAI GPT-3.5/4 + Firebase)
 
-<img src = "chat_gpt_1.png">
-<p>
-A Chatbot chat app built using the Flutter framework and OpenAI's GPT-3 language model.
-</p>
+A real-time, cross-platform AI Chat application built with Flutter. This project integrates OpenAI’s GPT models for human-like conversation and can be extended with Firebase Firestore & FCM for real-time messaging and push notifications.
 
-### Show some :heart: and star the repo.
+---
 
-## [Video tutorial available here](https://youtu.be/94JmNb1IhX0)
+## 👨‍💻 Developed by
 
-#### [Subscribe to Codepur](https://youtube.com/hellocodepur)
+**Hemant Kumar**  
+Flutter & iOS Developer | GenAI Enthusiast  
+🔗 GitHub: [ambitionless](https://github.com/ambitionless)  
+🔗 LinkedIn: [in/hemant-kumar-54a749241](https://linkedin.com/in/hemant-kumar-54a749241)
 
-## Features
+---
 
-- Natural language understanding
-- Human-like conversation
-- Customizable to fit your use-case
-- Lightweight, easy to integrate with other apps
-- Open-source
+## 🚀 Key Features
 
-## Prerequisites
+- 🔊 **Conversational AI** using OpenAI’s GPT-3.5/GPT-4 APIs  
+- 📲 Built using Flutter for Android & iOS  
+- 🔐 Modular structure for API integration & secure key handling  
+- 🎯 Easily extensible with **Firebase Firestore** & **Cloud Messaging**  
+- ✏️ UI-ready design with custom message bubble support  
+- 💡 Prompt customization for different chatbot personalities  
 
-- Flutter SDK
-- API key for OpenAI GPT-3 [Available here](https://beta.openai.com/account/api-keys)
+---
 
-## Getting Started
+## 🔧 Tech Stack
 
-1. Clone the repository
-2. Run `flutter pub get` to install dependencies
-3. Replace the placeholder API key with your own in the `chat_screen.dart` file
-4. Run the app on an emulator or physical device
+| Category           | Tools/Frameworks |
+|--------------------|------------------|
+| Frontend           | Flutter (Dart)   |
+| AI Integration     | OpenAI GPT APIs  |
+| Backend Option     | Firebase Firestore, Firebase Auth, FCM (for push notifications) |
+| State Management   | Provider / Bloc (extendable) |
 
-The chatbot can be further customized to fit your use-case by modifying the code in the `main.dart` file and other files. The source code for the chatbot is available on GitHub.
+---
 
-### Development by
+## 🛠 Setup Instructions
 
-- OpenAI - https://openai.com
-- Flutter - https://flutter.dev/
+### ✅ Prerequisites:
+- Flutter SDK installed  
+- OpenAI API Key → [Get yours here](https://platform.openai.com/account/api-keys)
 
-Please open an issues on the repository if you find any bugs or if you would like to contribute.
+---
 
-Code and documentation Copyright 2023 [Pawan Kumar](https://www.codepur.dev). Code released under the [Apache License](./LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+### 📦 Getting Started
+
+```bash
+git clone https://github.com/ambitionless/flutter-ai-chatbot-openai
+cd flutter-ai-chatbot-openai
+flutter pub get
+
+Go to lib/screens/chat_screen.dart
+
+Replace the placeholder API key with your own:
+final openAIKey = 'YOUR_API_KEY';
+
+Run the app:
+flutter run
+
+🧠 Credits
+Originally inspired by Pawan Kumar’s project
+➡ Codepur (GitHub)
+➡ Codepur YouTube
+
+This fork is modified and maintained by Hemant Kumar for personal portfolio and open-source learning.
+
+📄 License
+Distributed under the Apache License 2.0.
+Docs may include parts under Creative Commons.
+
+
+
